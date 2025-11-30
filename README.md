@@ -8,8 +8,6 @@ A simple Python script that recursively scans a folder (and all its subfolders) 
 - Prints each file’s duration as it is processed
 - Shows total number of files scanned
 - Shows total video runtime in minutes and seconds
-- Works recursively through subfolders
-
 ---
 
 ## Usage
