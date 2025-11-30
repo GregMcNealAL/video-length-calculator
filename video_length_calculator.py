@@ -2,17 +2,6 @@ import os
 from moviepy.editor import VideoFileClip
 
 def get_total_video_length(folder_path: str) -> tuple[float, int]:
-    """
-    Recursively scans a folder and all its subfolders, summing the duration of all video files.
-
-    Supports formats: .mp4, .mov, .avi, .mkv, .flv, .wmv
-
-    Args:
-        folder_path (str): Path to the folder to scan.
-
-    Returns:
-        Total duration of all video files in seconds and total number of files scanned.
-    """
     
     total_duration = 0
     total_files = 0
